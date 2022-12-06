@@ -14,7 +14,7 @@ class UsersController < ApplicationController
   end
 
   def edit
-    is_matching_login_user
+
     @user = User.new
   end
 
